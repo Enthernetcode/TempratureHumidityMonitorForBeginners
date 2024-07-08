@@ -351,6 +351,14 @@ class TemperatureHumidityMonitoringSystem:
         self.slow_print("Practice section completed. Good job!", Fore.CYAN)
 
 def main():
+    print (Fore.BLUE + """
+____               __  __               __
+   / __ \___ _   __   / / / /__  ____ _____/ /
+  / / / / _ \ | / /  / /_/ / _ \/ __ `/ __  / 
+ / /_/ /  __/ |/ /  / __  /  __/ /_/ / /_/ /  
+/_____/\___/|___/  /_/ /_/\___/\__,_/\__,_/   
+                                              
+""" + Style.RESET_ALL +"\n"   +                  Fore.RED + "Enthernetcode")
     system = TemperatureHumidityMonitoringSystem()
     while True:
         print(Fore.CYAN + "\nMain Menu:" + Style.RESET_ALL)
